@@ -1,0 +1,109 @@
+/ Main designs /
+
+body {
+	color: #230D03;
+	font-size: 15px;
+	line-height: 1.4;
+	letter-spacing: 2px;
+	text-justify: justify;
+	font-family: 'Noticia Text', serif;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+	color: #843E2D;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+}
+
+a:hover {
+	color: #D18463;
+	transition: color 0.3s ease;
+}
+
+h1, h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	line-height: 1.5;
+	letter-spacing: 3px;
+}
+
+h1 {
+	color: #4B2210;
+	font-size: 30px;
+
+}
+
+h2 {
+	color: #843E2D;
+	font-size: 20px;
+}
+
+
+/ Specific Designs with class & ID /
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-grey{
+	background: #DFDFDD;
+	padding: 40px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	margin: 30px;
+	text-align: center;
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .card-grey {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .card-grey {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .card-grey {
+    width: 300px;
+  }
+}
+
+.btn-brown {
+	background-color: #4B2210;
+	padding:  8px 15px;
+	border-radius: 4px;
+	color:#D18463;
+}
+
+.btn-brown:hover {
+	background-color: #230D03;
+	color:#843E2D;
+	transition: color 0.3 ease;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display:  inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 50px;
+}
+
+#ProfilePic {
+	border-radius: 50%;
+}
+
+
